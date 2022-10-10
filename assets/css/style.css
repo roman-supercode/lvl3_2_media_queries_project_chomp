@@ -1,0 +1,207 @@
+/* ===================
+    Global Style
+==================== */
+
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: RockSalt;
+    src: url("../fonts/RockSalt-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* @media only screen and (min-width: 600px) {} */
+
+/* @media only screen and (min-width: 601px) and (max-width:900px) {}
+
+@media only screen and (min-width: 901px) and (max-width:1200px) {}
+
+@media only screen and (min-width: 1201px) {} */
+
+/* ===================
+    Header Style
+==================== */
+header {
+    background-image: url("../img/dog_catching_snack.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+}
+
+header section img {
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-family: RockSalt;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+header section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header section h3 {
+    /* display: inline-block; */
+    width: 170px;
+    text-align: right;
+    margin-right: 3rem;
+    font-size: 1.6rem;
+    color: #DF8480;
+    font-family: Nunito;
+    font-weight: bold;
+}
+
+/* ===================
+    Main Style
+==================== */
+main h2 {
+    background-color: #DF8480;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main_howto div {
+    margin: 3rem;
+}
+
+.main_howto div h4 {
+    color: #DF8480;
+    font-size: 5rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+
+.main_menu article img {
+    max-width: 100%;
+}
+
+.main_menu article div {
+    margin: 3rem;
+}
+
+.main_menu  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.hundefutter {
+    background-image: url("../img/dog_bowl.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+.hundefutter p:nth-of-type(1) {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.hundefutter p:nth-of-type(2) {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.hundefutter p:nth-of-type(3) {
+    text-align: left;
+    margin-top: 120px;
+}
+
+.text_chefs {
+    padding: 3rem;
+}
+
+footer {
+background-color: #242424;
+font-size: 2rem;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    text-align: center;
+    width: 380px;
+    gap: 1rem;
+}
+
+footer form label {
+    color: white;
+    padding: 2rem;
+}
+
+footer form input {
+    padding: 1rem;
+    text-align: center;
+    border-radius: 74px;
+    border-style: none;
+}
+
+footer form button {
+    color: white;
+    background-color: #DF8480;
+    border-radius: 74px;
+    padding: 1rem;
+    border-style: none;
+}
+
+footer article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+footer article div a {
+    padding: 3rem 6rem;
+}
+
+footer p {
+    margin-top: 1rem;
+    color: white;
+}
+
+
+/* @media only screen and (min-width: 901px) and (max-width:1200px) {
+    header h1 {
+        background-color: white;
+    }
+} */
+
+
+
